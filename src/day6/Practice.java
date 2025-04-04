@@ -3,7 +3,8 @@ package day6;
 public class Practice {
 
 	public static void main(String[] args) {
-//		find some of elemnt in array
+		
+//		find sum of elemnt in array
 
 		int a[]= {1,3,1,2};
 		int sum=0;
@@ -12,7 +13,7 @@ public class Practice {
 		}
 		System.out.println(sum);
 		
-//		print even and odd numers
+//		print count of even and odd numers
 		
 		int b[]= {2,4,3,9,4,1,6,6};
 		int even=0;
