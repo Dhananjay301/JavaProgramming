@@ -27,6 +27,40 @@ public class Practice {
 		}
 		System.out.println("Even numbers= "+even);
 		System.out.println("Odd numbers= "+odd);
+		
+		
+//		Reverse String
+		
+		String s="Welcome";
+		String temp="";
+		for (int i=s.length()-1; i>=0; i--) {
+			char s2=s.charAt(i);
+			temp=temp+s2;	
+			
+		}
+		System.out.println(temp);
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,7 @@
 package day8;
 
+import java.util.Arrays;
+
 public class StringMethods {
 
 	public static void main(String[] args) {
@@ -40,7 +42,27 @@ public class StringMethods {
 		System.out.println("equels :" + s10.equals(s11));
 		System.out.println("equal ignor case :" + s10.equalsIgnoreCase(s11));
 		
+//		Replace
+		String s12="This is Insert";
+		String s13=s12.replace("i", "AT");
+		System.out.println("After replace :" + s13);
 		
+//		Substring - toreturn the substring from main string
+		String s14="To retun the main string";
+		String s15=s14.substring(1, 7);
+		System.out.println("After subscring :" + s15);
+		
+//		Split methos -Based on delimiter split in to multiple parts
+		String s16="dhananjaypatil301@gmail.com";
+		System.out.println("Before split :" + s16);
+		String ar1[]=s16.split("@");
+		System.out.println("After split :" + Arrays.toString(ar1));
+		System.out.println(ar1[1]);
+		
+		String s17=ar1[1];
+		System.out.println("second part :" + s17);
+		String ar2[]=s17.split(".");
+		System.out.println(ar2);
 		
 		
 		
